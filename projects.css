@@ -1,0 +1,63 @@
+@font-face {
+    font-family: nos;
+    src: url(../rn-website/assets/font/nimbus-mono.regular.otf);
+}
+
+@font-face {
+    font-family: pots;
+    src: url(../rn-website/assets/font/Kollektif.ttf);
+}
+
+body {
+    background-color: antiquewhite;
+
+}
+
+nav {
+    word-spacing: 10px;
+}
+
+.name p {
+    margin-top: -1.4%;
+}
+
+.socials{
+    text-align: right;
+    margin-top: -2%;
+    
+    
+}
+
+h1 {
+    font-family: pots;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: nos;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    font-family: pots;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.supreme {
+    font-family: pots;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
