@@ -1,3 +1,22 @@
+@font-face {
+    font-family: pots;
+    src: url(../rn-website/assets/font/nimbus-mono.regular.otf);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.container {
+    animation: fadeIn 3s
+}
+
+
 body {
     background-color: antiquewhite;
     font-family: pots;
