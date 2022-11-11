@@ -8,8 +8,22 @@
     src: url(../rn-website/assets/font/Kollektif.ttf);
 }
 
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.container {
+    animation: fadeIn 3s
+}
+
 
 h1 {
+    animation: fadeIn 1.55s;
     font-size: 2.5em;
     font-weight: 700;
     line-height: 1.2;
@@ -49,11 +63,26 @@ body {
     font-family: nos;
 }
 
+.social-links::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background: #fff;
+    transition: width 0.3s;
+}
+
+
+
 
 
 
 
 a {
     color: #000;
+}
+
+a:hover {
+    color: white;
 }
 
